@@ -29,7 +29,9 @@ const ToDoComp = () => {
         {
            toDoArr && toDoArr.map((item,index)=>
                 <div>
+                    <ul>
                     <li key={index}>{item.toDo}</li><span><button onClick={()=>handleRemoveTask(item.id)}>Delete</button></span>
+                    </ul>
                 </div>
             )
         }
