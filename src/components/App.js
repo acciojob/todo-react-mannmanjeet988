@@ -1,11 +1,13 @@
 
-import React from "react";
+import React,{useState} from "react";
 import './../styles/App.css';
+import ToDoComp from "./ToDoComp";
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <ToDoComp />
+       
     </div>
   )
 }
